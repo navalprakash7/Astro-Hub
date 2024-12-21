@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:orientation="vertical"
+    tools:context=".CelestialActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/picc0"
+            android:layout_width="370dp"
+            android:layout_height="350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/picc0" />
+
+        <ImageView
+            android:id="@+id/picc1"
+            android:layout_width="370dp"
+            android:layout_height="350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0"
+            app:srcCompat="@drawable/picc1" />
+        <ImageView
+            android:id="@+id/picc2"
+            android:layout_width="370dp"
+            android:layout_height="350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0"
+            app:srcCompat="@drawable/picc2" />
+
+        <ImageView
+            android:id="@+id/picc3"
+            android:layout_width="370dp"
+            android:layout_height="350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0"
+            app:srcCompat="@drawable/picc3" />
+
+        <ImageView
+            android:id="@+id/picc4"
+            android:layout_width="370dp"
+            android:layout_height="350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0"
+            app:srcCompat="@drawable/picc4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imgPrev"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_rew" />
+
+        <ImageButton
+            android:id="@+id/imgNext"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_media_ff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/bgtextview"
+        android:textColor="@color/material_dynamic_neutral95"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Neutron Star" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:padding="15dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:text="The Neutron Star (M42) is one of the brightest and most studied stellar remnants, located approximately 1,344 light-years away in the constellation Orion. This enigmatic object is the dense core left behind after a massive star has exhausted its nuclear fuel and undergone a supernova explosion. The Neutron Star’s gravity is so intense that it compresses the remaining matter into a state where neutrons are packed closely together. These stellar remnants are often only about 20 kilometers in diameter but contain the mass of several suns. The Neutron Star’s glowing appearance is due to ultraviolet radiation from hot, young stars ionizing the surrounding hydrogen gas. Its high magnetic field and rapid rotation make it a fascinating object for scientific study, as it allows astronomers to investigate the extreme physics of matter under high pressure and density. The Neutron Star continues to intrigue researchers and is considered a vital target for studying stellar evolution and the life cycle of massive stars."
+            tools:ignore="RtlCompat" />
+    </ScrollView>
+
+
+</LinearLayout>

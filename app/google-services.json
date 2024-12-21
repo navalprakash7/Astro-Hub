@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "422916911873",
+    "project_id": "astro-hub-767a4",
+    "storage_bucket": "astro-hub-767a4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422916911873:android:38d616d0d78c648ef3a100",
+        "android_client_info": {
+          "package_name": "com.example.astrohub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChOtKpSb-rXn2MTHhHZNNmZ-MR3tFerEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
